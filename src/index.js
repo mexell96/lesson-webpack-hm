@@ -1,5 +1,15 @@
-import name from "./functions/name"
+import React from 'react';
+import ReactDOM from 'react-dom';
+import "./app.css";
 
-const myName = name("Tany");
+class App extends React.Component {
+    render() {
+        return (
+            <>
+                <h1>Hello world</h1>
+            </>
+        );
+    }
+}
 
-console.log(myName);
+ReactDOM.render(<App />, document.getElementById("app"));
