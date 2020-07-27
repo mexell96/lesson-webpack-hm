@@ -1,4 +1,10 @@
 h1 {
-    color: aqua;
+    color: rgb(63, 0, 165);
     text-align: center;
+}
+#imag {
+    font-size: 30px;
+    height: 700px;
+    width: 900px;
+    background: url(../src/images/file.jpg) no-repeat;
 }
