@@ -2,7 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import "./app.css";
 import "./style.scss";
-import WEbpackJpg from "../src/images/file.jpg";
+
+import Webpack from '../src/file.jpg';
+let webp = document.createElement('img');
+webp.src = Webpack;
+document.body.appendChild(webp);
+
+
+// import logoWebpack from "../src/images/logoWebpack.png";
+
+
 
 class App extends React.Component {
     render() {
